@@ -157,7 +157,7 @@ fun StudentTrackerScreen(
                         verticalArrangement = Arrangement.spacedBy(10.dp)
                     ) {
                         Text(
-                            text = "Broadcast Receiver Demo",
+                            text = "Study Reminders",
                             style = MaterialTheme.typography.titleLarge
                         )
 
@@ -175,7 +175,7 @@ fun StudentTrackerScreen(
                             },
                             modifier = Modifier.fillMaxWidth()
                         ) {
-                            Text("Test Broadcast Receiver")
+                            Text("Test Reminder")
                         }
                     }
                 }
